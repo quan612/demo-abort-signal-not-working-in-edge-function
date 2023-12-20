@@ -47,9 +47,17 @@ export default function StreamViewer() {
 
     return (
         <div style={{ margin: "4rem" }}>
-            {/* <a href="/" style={{ fontSize: "16px", marginBottom: "20px", color:"lightblue", textDecoration:"underline" }}>
-        To EventSource Demo 👉
-      </a> */}
+            <Link
+                href="/"
+                style={{
+                    fontSize: "16px",
+                    marginBottom: "20px",
+                    color: "lightblue",
+                    textDecoration: "underline",
+                }}
+            >
+                To EventSource Demo 👉
+            </Link>
             <h1 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "16px" }}>
                 Demo of Abort Signal not working with Edge (with fetch)
             </h1>
