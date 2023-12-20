@@ -26,9 +26,9 @@ export default function StreamViewer() {
 
   return (
     <div style={{margin:"4rem"}}>
-        <a href="/" style={{ fontSize: "16px", marginBottom: "20px", color:"lightblue", textDecoration:"underline"  }}>
+        {/* <a href="/" style={{ fontSize: "16px", marginBottom: "20px", color:"lightblue", textDecoration:"underline"  }}>
             To Fetch Demo 👉
-        </a>
+        </a> */}
       <h1 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "16px" }}>Demo of Abort Signal not working with Edge (with EventSource)</h1>
       <p style={{ fontSize: "16px", marginBottom: "8px" }}>Open the console and click the button to see the abort signal not working.</p>
       <button
